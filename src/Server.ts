@@ -4,7 +4,7 @@ import { Server } from 'http';
 
 dotenv.config();
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 23355;
 app.debug = !!+process.env.DEBUG;
 
 app.server.listen(port, () => {
