@@ -80,7 +80,7 @@ class App {
                 if (this.debug) {
                     console.info('User disconnected!');
                 }
-                this.reboot(`Player ${(gamer) + 1} disconnected! `);
+                this.reboot(`O Jogador ${(gamer) + 1} desconectou! `);
             });
         });
     }
